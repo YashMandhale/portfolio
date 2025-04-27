@@ -1,0 +1,90 @@
+/* Reset and base styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Header styling */
+  header {
+    background-color: #57737A;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .navbar {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    background-color: #85BDBF;
+    color: #030301;
+  }
+  
+  .navbar li {
+    margin: 0 15px;
+  }
+  
+  .navbar a {
+    color: #030301 ;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Main section */
+  .intro-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: #C9FBFF;
+  }
+  
+  .photo img {
+    width: 500px;
+    height: auto;
+    border: 4px solid #333;
+    border-radius: 5px;
+  }
+  
+  .personal-info {
+    max-width: 5000px;
+  }
+  
+  .personal-info h2 {
+    margin-bottom: 10px;
+    font-size: 50px;
+  }
+  
+  /* Extra info section */
+  .extra-info {
+    padding: 20px;
+    background-color: #C2FCF7;
+    margin-top: 10px;
+  }
+  
+  .extra-info h3 {
+    margin-bottom: 10px;
+  }
+  
+  /* Footer */
+  .contact-info {
+    background-color: #57737A;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
